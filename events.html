@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>International Learning Station</title>
+    <link rel="icon" href="/icon.ico" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div class="bg-red-800 text-white">
+        <div
+          class="container mx-auto flex justify-between items-center py-2 px-4"
+        >
+          <div class="flex items-center space-x-4">
+            <img src="/logo.png" alt="University Logo" class="h-20" />
+            <div>
+              <h1 class="text-xl font-semibold">
+                International Learning Station
+              </h1>
+              <p class="text-sm">Estd. 2024</p>
+            </div>
+          </div>
+          <div class="flex items-center space-x-4">
+            <nav class="hidden md:flex space-x-4">
+              <a href="#" class="hover:underline">News</a>
+              <a href="#" class="hover:underline">History</a>
+              <a href="#" class="hover:underline">Maps</a>
+              <a href="#" class="hover:underline">Colleges</a>
+            </nav>
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Search YZU Web"
+                class="rounded-full px-4 py-1 text-black bg-white"
+              />
+              <button
+                class="absolute right-0 top-0 mt-1 mr-1 flex items-center justify-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 text-zinc-500"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-4.35-4.35m-6.65 0a7 7 0 1114 0 7 7 0 01-14 0z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-zinc-900 text-white">
+        <div
+          class="container mx-auto flex justify-center items-center py-2 px-4"
+        >
+          <nav class="flex space-x-4 text-center">
+            <a href="/" class="hover:underline px-12 text-xl">Home</a>
+            <a href="/about.html" class="hover:underline text-xl">About</a>
+            <a href="/management.html" class="hover:underline px-12 text-xl"
+              >Management</a
+            >
+            <a href="/alumui.html" class="hover:underline text-xl">Alumni</a>
+            <a href="/events.html" class="hover:underline px-12 text-xl"
+              >Events</a
+            >
+            <a href="/album.html" class="hover:underline text-xl">Album</a>
+            <a href="/contact.html" class="hover:underline px-12 text-xl"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container mx-auto my-10 p-6 bg-white shadow-lg rounded-lg text-black">
+        <section id="event-info">
+            <h3 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Event Overview</h3>
+            <p>Welcome to the "Learning Software and Programming Languages" event hosted by the International Learning Station. This event will cover a wide range of software and programming languages essential for modern technology and engineering applications.</p>
+        </section>
+
+        <section id="event-details" class="mt-8">
+            <h3 class="text-2xl font-semibold border-b-2 border-gray-300 pb-2 mb-4">Event Details</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="category">
+                    <h4 class="text-xl font-medium mb-2">Programming Languages</h4>
+                    <ul class="list-disc list-inside">
+                        <li class="bg-gray-100 p-2 rounded mb-2">C</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">C++</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">Java</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">JavaScript</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">Python</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">Go</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">C#</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">R</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">SQL</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h4 class="text-xl font-medium mb-2">Software</h4>
+                    <ul class="list-disc list-inside">
+                        <li class="bg-gray-100 p-2 rounded mb-2">AutoCAD</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">Ansys</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">SolidWorks</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">CATIA and Pro/E (Creo)</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">EndNote</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">MATLAB</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">Polyflow</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">ADAMS</li>
+                        <li class="bg-gray-100 p-2 rounded mb-2">3D Printing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-red-800 text-white p-4 text-center">
+      <div class="footWrap">
+        <p>
+          Tel: 86-514-87971858　Fax: 86-514-87311374　Add: 88 South Daxue Road,
+          Yangzhou, Jiangsu Province
+        </p>
+        <p>
+          Copyright © 2019 Yangzhou University All Rights Reserved.
+          <a
+            target="_blank"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32100302010246"
+            class="inline-flex items-center"
+          >
+            <img
+              src="https://english.yzu.edu.cn/__local/D/02/89/DC0A46FC5B15B3363FFA78CF6C7_C267B386_4B38.png?e=.png"
+              width="20"
+              height="20"
+              alt="备案号"
+              class="mr-2"
+            />
+            苏公网安备 32100302010246号
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

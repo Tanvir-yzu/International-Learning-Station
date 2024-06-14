@@ -1,0 +1,11 @@
+   <ul class="flex space-x-4">
+            <li><a href="index.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li>
+              <a href="management.html" class="hover:underline">Management</a>
+            </li>
+            <li><a href="alumni.html" class="hover:underline">Alumni</a></li>
+            <li><a href="events.html" class="hover:underline">Events</a></li>
+            <li><a href="album.html" class="hover:underline">Album</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+          </ul>
