@@ -17,9 +17,7 @@
   <body>
     <header>
       <div class="bg-red-800 text-white">
-        <div
-          class="container mx-auto flex justify-between items-center py-2 px-4"
-        >
+        <div class="container mx-auto flex flex-wrap justify-between items-center py-2 px-4">
           <div class="flex items-center space-x-4">
             <img src="/logo.png" alt="University Logo" class="h-20" />
             <div>
@@ -29,69 +27,73 @@
               <p class="text-sm">Estd. 2024</p>
             </div>
           </div>
-          <div class="flex items-center space-x-4">
+          <div class="hidden md:flex items-center space-x-4 mt-2 md:mt-0">
             <nav class="hidden md:flex space-x-4">
               <a href="#" class="hover:underline">News</a>
               <a href="#" class="hover:underline">History</a>
               <a href="#" class="hover:underline">Maps</a>
-              <a href="#" class="hover:underline">Colleges</a>
             </nav>
             <div class="relative">
               <input
                 type="text"
-                placeholder="Search YZU Web"
+                placeholder="Search ILC Web"
                 class="rounded-full px-4 py-1 text-black bg-white"
               />
               <button
                 class="absolute right-0 top-0 mt-1 mr-1 flex items-center justify-center"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 text-zinc-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M21 21l-4.35-4.35m-6.65 0a7 7 0 1114 0 7 7 0 01-14 0z"
-                  />
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24">
+                  <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path>
                 </svg>
               </button>
             </div>
           </div>
         </div>
       </div>
+      
       <div class="bg-black text-white">
-        <div
-          class="container mx-auto flex justify-center items-center py-2 px-4"
-        >
-        <nav class="flex space-x-4 text-center">
-          <a href="/" class="hover:underline text-xl">Home</a>
-          <a href="/about.html" class="hover:underline text-xl px-12"
-            >About</a
-          >
-          <a href="/courses.html" class="hover:underline text-xl">Courses</a>
-          <a href="/event.html" class="hover:underline px-12 text-xl"
-            >Events</a
-          >
-          <a href="/alumui.html" class="hover:underline text-xl">Alumni</a>
-          <a href="/management.html" class="hover:underline px-12 text-xl"
-            >Management</a
-          >
-
-          <a href="/album.html" class="hover:underline text-xl">Album</a>
-          <a href="/contact.html" class="hover:underline px-12 text-xl"
-            >Contact</a
-          >
-        </nav>
+        <div class="container mx-auto flex flex-wrap justify-center items-center py-2 px-4">
+            <nav class="flex flex-wrap justify-center space-x-4 text-center">
+                <a href="/" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Home</a>
+                <a href="/about.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">About</a>
+                <a href="/courses.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Courses</a>
+                <a href="/event.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Events</a>
+                <a href="/alumui.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Alumni</a>
+                <a href="/management.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Management</a>
+                <a href="/album.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Album</a>
+                <a href="/contact.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Contact</a>
+            </nav>
         </div>
-      </div>
+    </div>
+    
     </header>
     <main class="h-screen">
-
+      <div class="pt-40">
+        <div
+        class="text-center p-6 max-w-lg mx-auto text-black rounded-lg shadow-lg pt-40"
+      >
+        <h1 class="text-4xl font-bold text-black mb-4">Coming Soon ....</h1>
+        <p class="text-lg text-black mb-8">
+          We are working hard to give you a better experience. Stay tuned!
+        </p>
+        <form action="#" class="w-full">
+          <div class="flex items-center border-b border-gray-700 py-2">
+            <input
+              class="appearance-none bg-transparent border-none w-full text-black mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="email"
+              placeholder="Enter your email"
+              aria-label="Email"
+            />
+            <button
+              class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 text-black text-sm py-1 px-2 rounded focus:outline-none focus:shadow-outline"
+              type="button"
+            >
+              Notify Me
+            </button>
+          </div>
+        </form>
+      </div>
+      </div>
     </main>
     <!-- <main class="py-14">
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4">

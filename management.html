@@ -18,9 +18,7 @@
   <body>
     <header>
       <div class="bg-red-800 text-white">
-        <div
-          class="container mx-auto flex justify-between items-center py-2 px-4"
-        >
+        <div class="container mx-auto flex flex-wrap justify-between items-center py-2 px-4">
           <div class="flex items-center space-x-4">
             <img src="/logo.png" alt="University Logo" class="h-20" />
             <div>
@@ -30,206 +28,287 @@
               <p class="text-sm">Estd. 2024</p>
             </div>
           </div>
-          <div class="flex items-center space-x-4">
+          <div class="hidden md:flex items-center space-x-4 mt-2 md:mt-0">
             <nav class="hidden md:flex space-x-4">
               <a href="#" class="hover:underline">News</a>
               <a href="#" class="hover:underline">History</a>
               <a href="#" class="hover:underline">Maps</a>
-              <a href="#" class="hover:underline">Colleges</a>
             </nav>
             <div class="relative">
               <input
                 type="text"
-                placeholder="Search YZU Web"
+                placeholder="Search ILC Web"
                 class="rounded-full px-4 py-1 text-black bg-white"
               />
               <button
                 class="absolute right-0 top-0 mt-1 mr-1 flex items-center justify-center"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 text-zinc-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M21 21l-4.35-4.35m-6.65 0a7 7 0 1114 0 7 7 0 01-14 0z"
-                  />
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24">
+                  <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path>
                 </svg>
               </button>
             </div>
           </div>
         </div>
       </div>
+      
       <div class="bg-zinc-900 text-white">
-        <div
-          class="container mx-auto flex justify-center items-center py-2 px-4"
-        >
-        <nav class="flex space-x-4 text-center">
-          <a href="/" class="hover:underline text-xl">Home</a>
-          <a href="/about.html" class="hover:underline text-xl px-12"
-            >About</a
-          >
-          <a href="/courses.html" class="hover:underline text-xl">Courses</a>
-          <a href="/event.html" class="hover:underline px-12 text-xl"
-            >Events</a
-          >
-          <a href="/alumui.html" class="hover:underline text-xl">Alumni</a>
-          <a href="/management.html" class="hover:underline px-12 text-xl"
-            >Management</a
-          >
-
-          <a href="/album.html" class="hover:underline text-xl">Album</a>
-          <a href="/contact.html" class="hover:underline px-12 text-xl"
-            >Contact</a
-          >
-        </nav>
+        <div class="container mx-auto flex flex-wrap justify-center items-center py-2 px-4">
+            <nav class="flex flex-wrap justify-center space-x-4 text-center">
+                <a href="/" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Home</a>
+                <a href="/about.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">About</a>
+                <a href="/courses.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Courses</a>
+                <a href="/event.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Events</a>
+                <a href="/alumui.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Alumni</a>
+                <a href="/management.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Management</a>
+                <a href="/album.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Album</a>
+                <a href="/contact.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Contact</a>
+            </nav>
         </div>
-      </div>
+    </div>
     </header>
 
-    <main class="p-6 md:p-20 mb-8">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-          <!-- 01 -->
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-              <img class="rounded-t-lg w-full" src="/photo/ph-05.png" alt="UDDIN MIHRAB">
-            </a>
-            <div class="p-5">
-                <p class="text-gray-900 dark:text-white py-3 text-center text-xl">
-                  Chief Consultant
-                  </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Name:</strong> 尤玉军
-              </p>
-              <!-- <p class="text-gray-900 dark:text-white">
-                <strong>Department:</strong> Mechanical Engineering
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Student ID:</strong> 218801145
-              </p> -->
-              <p class="text-gray-900 dark:text-white">
-                <strong>Email:</strong> 218801145@stu.yzu.edu.cn
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Phone Number:</strong> 18852714983
-              </p>
-            </div>
+    <main>
+          <!-- Professor Details Section -->
+    <section class="py-10 shadow-2xl bg-gray-200">
+      <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-8">Board Member</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+              <!-- Professor Card 1 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/ph-05.png" alt="Professor 1" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">尤玉军</h3>
+                      <p class="text-gray-600 font-bold">Chief Consultant, President of Yangzhou University</p>
+                      <!-- <a href="mailto:prof1@example.com" class="text-blue-500">prof1@example.com</a> -->
+                  </div>
+              </div>
+              <!-- Professor Card 2 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/ph-01.png" alt="Professor 2" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">周桂生</h3>
+                      <p class="text-gray-600 font-bold">President, Dean of Overseas Department, Yangzhou University</p>
+                      <!-- <a href="mailto:prof2@example.com" class="text-blue-500">prof2@example.com</a> -->
+                  </div>
+              </div>
+              <!-- Professor Card 3 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/ph-02.png" alt="Professor 3" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">张超</h3>
+                      <p class="text-gray-600 font-bold">Secretary, Dean of College of Mechanical Engineering, Yangzhou University</p>
+                      <!-- <a href="mailto:prof3@example.com" class="text-blue-500">prof3@example.com</a> -->
+                  </div>
+              </div>
           </div>
-          <!-- 02 -->
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            
-              <img class="rounded-t-lg w-full h-72 object-contain" src="/photo/ph-02.png" alt="UDDIN MIHRAB">
-  
-            <div class="p-5">
-                <p class="text-gray-900 dark:text-white py-3 text-center text-xl">
-                  President, Dean of Overseas Department
-                  </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Name:</strong> 周桂生
-              </p>
-              <!-- <p class="text-gray-900 dark:text-white">
-                <strong>Department:</strong> Mechanical Engineering
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Student ID:</strong> 218801145
-              </p> -->
-              <p class="text-gray-900 dark:text-white">
-                <strong>Email:</strong> 218801145@stu.yzu.edu.cn
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Phone Number:</strong> 18852714983
-              </p>
-            </div>
+      </div>
+  </section>
+    <section class="py-10 shadow-2xl bg-gray-200">
+      <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-8">Professor Details</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+              <!-- Professor Card 4 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/ph-04.png" alt="Professor 4" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">刘澄</h3>
+                      <p class="text-gray-600 font-bold">Professor, College of Mechanical Engineering, Yangzhou University</p>
+                      <!-- <a href="mailto:prof4@example.com" class="text-blue-500">prof4@example.com</a> -->
+                  </div>
+              </div>
+              <!-- Professor Card 5 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/ph-03.png" alt="Professor 5" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">张琦</h3>
+                      <p class="text-gray-600 font-bold">Associate Professor, College of Mechanical Engineering, Yangzhou University</p>
+                      <!-- <a href="mailto:prof5@example.com" class="text-blue-500">prof5@example.com</a> -->
+                  </div> 
+              </div>
+              <!-- Professor Card 5 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="https://placehold.co/128x128" alt="Professor 5" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">哎哟嘿</h3>
+                      <p class="text-gray-600 font-bold">Assistant Professor, College of Mechanical Engineering, Yangzhou University</p>
+                      <!-- <a href="mailto:prof5@example.com" class="text-blue-500">prof5@example.com</a> -->
+                  </div> 
+              </div>
           </div>
-          <!-- 03 -->
-          <!-- 04 -->
-          <!-- 05 -->
-          <!-- 06 -->
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-              <img class="rounded-t-lg w-full" src="/photo/mar.jpg" alt="UDDIN MIHRAB">
-            </a>
-            <div class="p-5">
-                <p class="text-gray-900 dark:text-white py-3 text-center text-xl">
-                    CLUB PRESIDENT 
-                  </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Name:</strong> UDDIN MIHRAB (周文博)
-              </p>
-              <p class="text-gray-900 dark:text-white">
-                <strong>Department:</strong> Mechanical Engineering
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Student ID:</strong> 218801145
-              </p>
-              <p class="text-gray-900 dark:text-white">
-                <strong>Email:</strong> 218801145@stu.yzu.edu.cn
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Phone Number:</strong> 18852714983
-              </p>
+      </div>
+  </section>
+          <!-- Professor Details Section -->
+    <section class="py-10 bg-gray-200">
+      <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-8">Managing Board</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+              <!-- Professor Card 1 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 ">
+                <img src="./photo/mar.jpg" alt="Student 1" class="w-full h-48 object-contain rounded-t-lg">
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold">UDDIN MIHRAB (周文博)
+                    </h3>
+                    <p class="text-gray-600 font-bold"> PRESIDENT 
+                    </p>
+                    <p class="text-gray-600"> Working Area: Project Management, ANSYS & Searching </p>
+                    <p class="text-gray-600">Student ID: 218801145</p>
+                    <a href="mailto:218801145@stu.yzu.edu.cn" class="text-blue-500">218801145@stu.yzu.edu.cn</a>
+                    <p class="text-gray-600">Contact: 18852714983</p>
+                </div>
             </div>
-          </div>
-          <!-- 07 -->
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
-              <img class="rounded-t-lg w-full" src="/photo/tan.jpg" alt="TANVIR ISLAM">
-            </a>
-            <div class="p-5">
-                <p class="text-gray-900 dark:text-white py-3 text-center text-xl">
-                   HEAD OF CODING MANAGEMENT
-                  </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Name:</strong> TANVIR ISLAM (王唐伟)
-              </p>
-              <p class="text-gray-900 dark:text-white">
-                <strong>Department:</strong> Software Engineering
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Student ID:</strong> 238801245
-              </p>
-              <p class="text-gray-900 dark:text-white">
-                <strong>Email:</strong> 238801245@stu.yzu.edu.cn
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Phone Number:</strong> 18252737084
-              </p>
+              <!-- Management Card 7 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="./photo/ph-07.jpg" alt="Student 7" class="w-full h-48 object-contain rounded-t-lg">
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold">ISLAM MD NAHIDUL(蒋圣杰)</h3>
+                    <p class="text-gray-600 font-bold">RECRUITMENT INCHARGE</p>
+                    <p class="text-gray-600">Working Area: CATIA V5 </p>
+                    <p class="text-gray-600">Student ID: 218801150</p>
+                    <a href="mailto:218801150@stu.yzu.edu.cn" class="text-blue-500">218801150@stu.yzu.edu.cn</a>
+                    <p class="text-gray-600">Contact: 18762312771</p>
+                </div>
             </div>
-          </div>
-          <!-- 08 -->
-          <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            
-              <img class="rounded-t-lg w-full h-80 object-cover" src="/photo/fok.jpg" alt="MD Fokhrul Islam">
-          
-            <div class="p-5">
-                <p class="text-gray-900 dark:text-white py-3 text-center text-xl">
-                   HEAD OF DESIGN MANAGEMENT
-                   </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Name:</strong> MD Fokhrul Islam (傅谦)
-              </p>
-              <p class="text-gray-900 dark:text-white">
-                <strong>Department:</strong> Mechanical Engineering
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Student ID:</strong> 238801084
-              </p>
-              <p class="text-gray-900 dark:text-white">
-                <strong>Email:</strong> 238801084@stu.yzu.edu.cn
-              </p>
-              <p class="text-gray-900 dark:text-white py-3">
-                <strong>Phone Number:</strong> 19505275306
-              </p>
+            <!-- Management Card 12 -->
+           <div class="bg-white rounded-lg shadow-lg p-6">
+            <img src="./photo/PH-12.jpg" alt="Student 10" class="w-full h-48 object-contain rounded-t-lg">
+            <div class="mt-4">
+                <h3 class="text-xl font-bold"> Mohammed Arafat Hossen (杨伟祺)</h3>
+                <p class="text-gray-600 font-bold">LOGISTICS INCHARGE</p>
+                <p class="text-gray-600">Working Area: Logistics & Management</p>
+                <p class="text-gray-600">Student ID: 218801141</p>
+                <a href="mailto:218801141@stu.yzu.edu.cn" class="text-blue-500">218801141@stu.yzu.edu.cn</a>
+                <p class="text-gray-600">Contact: 18752546311</p>
             </div>
-          </div>
-          <!-- 09 -->
         </div>
-      </main>
+            <!-- Management Card 2 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="./photo/tan.jpg" alt="Student 2" class="w-full h-52 object-contain rounded-full">
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold">TANVIR ISLAM (王唐伟)</h3>
+                    <p class="text-gray-600 font-bold"> CODING INCHARGE</p>
+                    <p class="text-gray-600">Working Area:C,C++,Python</p>
+                    <p class="text-gray-600">Student ID: 238801245</p>
+                    <a href="mailto:238801245@stu.yzu.edu.cn" class="text-blue-500">238801245@stu.yzu.edu.cn</a>
+                    <p class="text-gray-600">Contact: 18252737084</p>
+                </div>
+            </div>
+            <!-- Management Card 3 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="./photo/fok.jpg" alt="Student 3" class="w-full h-48 object-contain rounded-t-lg">
+                <div class="mt-4">
+                    <h3 class="text-xl font-bold">MD Fokhrul Islam (傅谦)</h3>
+                    <p class="text-gray-600 font-bold">DESIGN INCHARGE</p>
+                    <p class="text-gray-600">Working Area: SOLIDWORKs</p>
+                    <p class="text-gray-600">Student ID: 238801084</p>
+                    <a href="mailto:238801084@stu.yzu.edu.cn" class="text-blue-500">238801084@stu.yzu.edu.cn</a>
+                    <p class="text-gray-600">Contact: 19505275306</p>
+                </div>
+            </div>
+           
+            <!-- Management Card 9 -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+              <img src="./photo/ph-09.jpg" alt="Student 9" class="w-full h-48 object-contain rounded-t-lg">
+              <div class="mt-4">
+                  <h3 class="text-xl font-bold">Al Amin Hossain (王文浩)</h3>
+                  <p class="text-gray-600 font-bold">FINANCIAL INCHARGE</p>
+                  <p class="text-gray-600">Working Area: Course Management & Finance</p>
+                  <p class="text-gray-600">Student ID: 218801154</p>
+                  <a href="mailto:218801154@stu.yzu.edu.cn" class="text-blue-500">218801154@stu.yzu.edu.cn</a>
+                  <p class="text-gray-600">Contact: 15052525909</p>
+              </div>
+          </div>
+           
+          </div>
+      </div>
+  </section>
+
+  <!-- Management Details Section -->
+  <section class="py-10 bg-gray-200">
+      <div class="container mx-auto">
+          <h2 class="text-3xl font-bold text-center mb-8">ADDITIONAL MEMBERS</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+              <!-- Management Card 1 -->
+              
+              <!-- Management Card 4 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/Picture1.jpg" alt="Student 4" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">Shkib Sadman(幸福)
+                      </h3>
+                      <p class="text-gray-600 font-bold">CODING ASSISTANT
+                      </p>
+                      <p class="text-gray-600">Working Area: HTML, CSS</p>
+                      <p class="text-gray-600">Student ID: 238801241</p>
+                      <a href="mailto:238801241@stu.yzu.edu.cn" class="text-blue-500">238801241@stu.yzu.edu.cn</a>
+                      <p class="text-gray-600">Contact: 15952726772</p>
+                  </div>
+              </div>
+              <!-- Management Card 5 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/Picture2.jpg" alt="Student 5" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">MD SAJIB HOSSAIN (杜青山)</h3>
+                      <p class="text-gray-600 font-bold">HEAD OF CODING MANAGEMENT
+                      </p>
+                      <p class="text-gray-600">Working Area:Go, Python, Django</p>
+                      <p class="text-gray-600">Student ID: 218801001</p>
+                      <a href="mailto:218801001@stu.yzu.edu.cn" class="text-blue-500">218801001@stu.yzu.edu.cn</a>
+                      <p class="text-gray-600">Contact: 18252710546</p>
+                  </div>
+              </div>
+              <!-- Management Card 6 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/Picture3.jpg" alt="Student 6" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">KHAN MD HABIB (石玉生)</h3>
+                      <p class="text-gray-600 font-bold">CODING ASSISTANT</p>
+                      <p class="text-gray-600">Working Area: Python</p>
+                      <p class="text-gray-600">Student ID: 218801003</p>
+                      <a href="mailto:218801003@stu.yzu.edu.cn" class="text-blue-500">218801003@stu.yzu.edu.cn</a>
+                      <p class="text-gray-600">Contact: 18252710546</p>
+                  </div>
+              </div>
+             
+              <!-- Management Card 8 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/ph-08.jpg" alt="Student 8" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">Sk Abu Musa (穆萨) </h3>
+                      <p class="text-gray-600 font-bold">DESIGN ASSISTANT </p>
+                      <p class="text-gray-600">Working Area: SOLIDWORKs</p>
+                      <p class="text-gray-600">Student ID: 228801088</p>
+                      <a href="mailto:228801088@stu.yzu.edu.cn" class="text-blue-500">228801088@stu.yzu.edu.cn</a>
+                      <p class="text-gray-600">Contact: 18252713114</p>
+                  </div>
+              </div>
+              <!-- Management Card 10 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/PH-10.jpg" alt="Student 10" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold">Shakira Fariha (雅婷)</h3>
+                      <p class="text-gray-600 font-bold">MACHINE lEARNING & AI</p>
+                      <p class="text-gray-600">Working Area: Coding & Sensor</p>
+                      <p class="text-gray-600">Student ID: MH23133</p>
+                      <a href="mailto:MH23133@stu.yzu.edu.cn" class="text-blue-500">MH23133@stu.yzu.edu.cn</a>
+                      <p class="text-gray-600">Contact: 18762312037</p>
+                  </div>
+              </div>
+              <!-- Management Card 11 -->
+              <div class="bg-white rounded-lg shadow-lg p-6">
+                  <img src="./photo/PH-11.jpg" alt="Student 10" class="w-full h-48 object-contain rounded-t-lg">
+                  <div class="mt-4">
+                      <h3 class="text-xl font-bold"> ALI MD SAHIN</h3>
+                      <p class="text-gray-600 font-bold">AI TEACHING ASSISTANT</p>
+                      <p class="text-gray-600">Working Area: Sensor Management</p>
+                      <p class="text-gray-600">Student ID: 198801821</p>
+                      <a href="mailto:198801821@stu.yzu.edu.cn" class="text-blue-500">198801821@stu.yzu.edu.cn</a>
+                      <p class="text-gray-600">Contact: 18762312796</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
     <!-- footer -->
     <footer class="bg-red-800 text-white p-4 text-center">
       <div class="footWrap">

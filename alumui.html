@@ -19,9 +19,7 @@
   <body>
     <header>
       <div class="bg-red-800 text-white">
-        <div
-          class="container mx-auto flex justify-between items-center py-2 px-4"
-        >
+        <div class="container mx-auto flex flex-wrap justify-between items-center py-2 px-4">
           <div class="flex items-center space-x-4">
             <img src="/logo.png" alt="University Logo" class="h-20" />
             <div>
@@ -31,206 +29,154 @@
               <p class="text-sm">Estd. 2024</p>
             </div>
           </div>
-          <div class="flex items-center space-x-4">
+          <div class="hidden md:flex items-center space-x-4 mt-2 md:mt-0">
             <nav class="hidden md:flex space-x-4">
               <a href="#" class="hover:underline">News</a>
               <a href="#" class="hover:underline">History</a>
               <a href="#" class="hover:underline">Maps</a>
-              <a href="#" class="hover:underline">Colleges</a>
             </nav>
             <div class="relative">
               <input
                 type="text"
-                placeholder="Search YZU Web"
+                placeholder="Search ILC Web"
                 class="rounded-full px-4 py-1 text-black bg-white"
               />
               <button
                 class="absolute right-0 top-0 mt-1 mr-1 flex items-center justify-center"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 text-zinc-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M21 21l-4.35-4.35m-6.65 0a7 7 0 1114 0 7 7 0 01-14 0z"
-                  />
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24">
+                  <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path>
                 </svg>
               </button>
             </div>
           </div>
         </div>
       </div>
+      
       <div class="bg-zinc-900 text-white">
-        <div
-          class="container mx-auto flex justify-center items-center py-2 px-4"
-        >
-          <nav class="flex space-x-4 text-center">
-            <a href="/" class="hover:underline text-xl">Home</a>
-            <a href="/about.html" class="hover:underline text-xl px-12"
-              >About</a
-            >
-            <a href="/courses.html" class="hover:underline text-xl">Courses</a>
-            <a href="/event.html" class="hover:underline px-12 text-xl"
-              >Events</a
-            >
-            <a href="/alumui.html" class="hover:underline text-xl">Alumni</a>
-            <a href="/management.html" class="hover:underline px-12 text-xl"
-              >Management</a
-            >
-
-            <a href="/album.html" class="hover:underline text-xl">Album</a>
-            <a href="/contact.html" class="hover:underline px-12 text-xl"
-              >Contact</a
-            >
-          </nav>
+        <div class="container mx-auto flex flex-wrap justify-center items-center py-2 px-4">
+            <nav class="flex flex-wrap justify-center space-x-4 text-center">
+                <a href="/" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Home</a>
+                <a href="/about.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">About</a>
+                <a href="/courses.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Courses</a>
+                <a href="/event.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Events</a>
+                <a href="/alumui.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Alumni</a>
+                <a href="/management.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Management</a>
+                <a href="/album.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Album</a>
+                <a href="/contact.html" class="hover:underline text-xl px-2 md:px-4 lg:px-12">Contact</a>
+            </nav>
         </div>
-      </div>
+    </div>
     </header>
 
-    <main class="bg-gray-100 px-16 text-black">
-      <h2 class="text-2xl font-bold text-red-700 mb-4 py-10 text-4xl">
+    <main class="bg-gray-100 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 text-black h-auto py-20">
+      <h2 class="text-2xl font-bold text-red-700 mb-4 py-10 md:text-4xl"> 
         Alumni
       </h2>
-      <div
-        class="p-6 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-10"
-      >
+      <div class="p-4 sm:p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
         <div class="flex mb-8">
           <img
-            class="w-32 h-32 object-cover mr-4"
+            class="w-24 h-24 sm:w-32 sm:h-32 object-cover mr-4"
             src="/photo/ph-05.png"
             alt="周桂生"
           />
           <div>
-            <h2 class="font-semibold text-3xl">PRESIDENT</h2>
-            <h3 class="text-xl font-semibold py-2">尤玉军</h3>
+            <h2 class="font-semibold text-2xl sm:text-3xl">PRESIDENT</h2>
+            <h3 class="text-lg sm:text-xl font-semibold py-2">尤玉军</h3>
             <p>
-              Chief Consultant, President of Yangzhou University,88 South Daxue
+              Chief Consultant, President of Yangzhou University, 88 South Daxue
               Road, Yangzhou, Jiangsu Province, China 225000
             </p>
           </div>
         </div>
-
+    
         <div class="flex mb-8">
           <img
-            class="w-32 h-32 object-cover mr-4"
+            class="w-24 h-24 sm:w-32 sm:h-32 object-cover mr-4"
             src="/photo/ph-02.png"
             alt="高敏"
           />
           <div>
-            <h2 class="font-semibold text-3xl">SECRETARY</h2>
-            <h3 class="text-xl font-semibold py-2">高敏</h3>
+            <h2 class="font-semibold text-2xl sm:text-3xl">SECRETARY</h2>
+            <h3 class="text-lg sm:text-xl font-semibold py-2">高敏</h3>
             <p>
-              Dean of College of Mechanical Engineering,Yangzhou University,88
+              Dean of College of Mechanical Engineering, Yangzhou University, 88
               South Daxue Road, Yangzhou, Jiangsu Province, China 225000
             </p>
           </div>
         </div>
-
+    
         <div class="flex mb-8">
           <img
-            class="w-32 h-32 object-cover mr-4"
+            class="w-24 h-24 sm:w-32 sm:h-32 object-cover mr-4"
             src="/photo/ph-01.png"
             alt="周桂生"
           />
           <div>
-            <h2 class="font-semibold text-3xl">PRESIDENT</h2>
-            <h3 class="text-xl font-semibold py-2">周桂生</h3>
+            <h2 class="font-semibold text-2xl sm:text-3xl">PRESIDENT</h2>
+            <h3 class="text-lg sm:text-xl font-semibold py-2">周桂生</h3>
             <p>
-              Dean of Overseas Department,Yangzhou University,88 South Daxue
-              Road, Yangzhou, Jiangsu Province, China 225000
+              Dean of Overseas Department, Yangzhou University, 88 South Daxue Road,
+              Yangzhou, Jiangsu Province, China 225000
             </p>
           </div>
         </div>
-
-        <!-- <div class="flex mb-8">
-          <img
-            class="w-32 h-32 object-cover mr-4"
-            src="/photo/ph-04.png"
-            alt="Professor Cheng Liu"
-          />
-          <div>
-            <h2 class="font-semibold text-3xl">Professor</h2>
-            <h3 class="text-xl font-semibold py-2"> 刘澄</h3>
-            <p>
-              Professor of College of Mechanical Engineering,Yangzhou University,88
-              South Daxue Road, Yangzhou, Jiangsu Province, China 225000
-            </p>
-          </div>
-        </div> -->
-
+    
         <div class="flex mb-8">
           <img
-            class="w-32 h-32 object-cover mr-4"
+            class="w-24 h-24 sm:w-32 sm:h-32 object-cover mr-4"
             src="/photo/ph-03.png"
             alt="Professor 张琦"
           />
           <div>
-            <h2 class="font-semibold text-3xl">Associate Professor</h2>
-            <h3 class="text-xl font-semibold py-2"> 张琦</h3>
+            <h2 class="font-semibold text-2xl sm:text-3xl">Associate Professor</h2>
+            <h3 class="text-lg sm:text-xl font-semibold py-2">张琦</h3>
             <p>
-              Associate Professor of College of Mechanical Engineering,Yangzhou University,88
-              South Daxue Road, Yangzhou, Jiangsu Province, China 225000
+              Associate Professor of College of Mechanical Engineering, Yangzhou
+              University, 88 South Daxue Road, Yangzhou, Jiangsu Province, China
+              225000
             </p>
           </div>
         </div>
-
+    
         <div class="flex mb-8">
           <img
-            class="w-32 h-32 object-cover mr-4"
+            class="w-24 h-24 sm:w-32 sm:h-32 object-cover mr-4"
             src="/photo/ph-04.png"
             alt="Professor Cheng Liu"
           />
           <div>
-            <h2 class="font-semibold text-3xl">Professor</h2>
-            <h3 class="text-xl font-semibold py-2"> 刘澄</h3>
+            <h2 class="font-semibold text-2xl sm:text-3xl">Professor</h2>
+            <h3 class="text-lg sm:text-xl font-semibold py-2">刘澄</h3>
             <p>
-              Professor of College of Mechanical Engineering,Yangzhou University,88
-              South Daxue Road, Yangzhou, Jiangsu Province, China 225000
+              Professor of College of Mechanical Engineering, Yangzhou University,
+              88 South Daxue Road, Yangzhou, Jiangsu Province, China 225000
             </p>
           </div>
         </div>
-
+    
         <div class="flex mb-8">
           <img
-            class="w-32 h-32 object-cover mr-4"
+            class="w-24 h-24 sm:w-32 sm:h-32 object-cover mr-4"
             src="https://placehold.co/128x128"
             alt="Assistant Professor 哎哟嘿"
           />
           <div>
-            <h2 class="font-semibold text-3xl">Assistant Professor</h2>
-            <h3 class="text-xl font-semibold">哎哟嘿</h3>
+            <h2 class="font-semibold text-2xl sm:text-3xl">Assistant Professor</h2>
+            <h3 class="text-lg sm:text-xl font-semibold">哎哟嘿</h3>
             <p>
-              Assistant Professor of College of Mechanical Engineering,Yangzhou University,88
-              South Daxue Road, Yangzhou, Jiangsu Province, China 225000
+              Assistant Professor of College of Mechanical Engineering, Yangzhou
+              University, 88 South Daxue Road, Yangzhou, Jiangsu Province, China
+              225000
             </p>
           </div>
         </div>
-
-        <!-- <div class="flex mb-8">
-          <img
-            class="w-32 h-32 object-cover mr-4"
-            src="https://placehold.co/128x128"
-            alt="Dr. Mei Wong"
-          />
-          <div>
-            <h3 class="text-xl font-semibold">Dr. Mei Wong</h3>
-            <p>
-              Director, Department of Computational Biology, Tsinghua
-              University, Beijing, China
-            </p>
-          </div>
-        </div> -->
       </div>
     </main>
+    
 
     <!-- footer -->
-    <footer class="bg-red-800 text-white p-4 text-center">
+    <footer class="bg-red-800 text-white p-4 text-center ">
       <div class="footWrap">
         <p>
           Tel: 86-514-87971858　Fax: 86-514-87311374　Add: 88 South Daxue Road,
