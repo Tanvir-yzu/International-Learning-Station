@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81f1f43f-3e1d-463e-a6c3-e33563ab7c4a/deploy-status)](https://app.netlify.com/sites/international-learing-station/deploys)
