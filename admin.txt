@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 TANVIR ISLAM (王唐伟)
 Department: Software Engineering
 
-=======
-TANVIR ISLAM (王唐伟)
-Department: Software Engineering
-
->>>>>>> 805082716173e8ee578e51193ac39a482b148002
 https://www.yzu.edu.cn/xybm/jxjg.htm
